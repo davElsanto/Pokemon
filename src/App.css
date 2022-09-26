@@ -1,0 +1,58 @@
+.App > p {
+    text-align: center;
+}
+button {
+    background-color: rgb(92, 73, 173);
+    border: none;
+    height: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(172, 157, 238);
+}
+
+.contenedor {
+    max-width: 80%;
+    margin: auto;
+}
+.componente-busqueda {
+    display: flex;
+    justify-content: space-between;
+}
+.formulario-contenedor > .row > input{
+    width: 45%;
+}
+label {
+    width: 100px;
+}
+.componente-busqueda > label {
+    width: 100px;
+    margin-right: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.botonera {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.botonera > button {
+    width: 10rem;
+}
+
+table {
+    width: 100%;
+}
+
+img {
+    width: 100px;
+    
+}
